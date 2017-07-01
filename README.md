@@ -11,7 +11,7 @@ In order to run this program, please call the function 'load_data', class 'Flowe
 The KNN model has a prediction accuracy rate at 0.967 by averaging scores from a cross validation with 10 folds.
 ### Bonus Question
 1. Is it possible to use Logistic Regression to do multi-class classification? If yes, can you implement Logistic Regression method in your train function?
-* Answer: Yes, it is possible to use Logistic Regression to do multi-class classification. 
+* Answer: Yes, it is possible to use Logistic Regression to do multi-class classification. Please see the jupyter notebook for coding and result.
 
 2. If you were to evaluate your classifier, explain in one paragraph that what kind of metrics you could have provide and/or how you would have separate your test from training data.
 * Answer: I used the metric accuracy to evaluate my KNN classifier. I also applied a 10 fold cross validation to minimize the randomness caused by data set splitting.
